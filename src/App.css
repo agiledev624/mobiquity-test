@@ -1,0 +1,69 @@
+.currency-input {
+  max-width: 200px;
+  background: #ceeff9;
+  border-color: #0ccfac;
+  border-radius: 5px;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.currency-input--error {
+  background: #f55973;
+  border-color: #ff0b0b;
+}
+
+.list-group {
+  font-size: calc(10px + 1vmin);
+  margin: 20px 0px;
+  height: 40vh;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px #301a3b; */
+  background-color: #48275e38;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #0ccfac38;
+  /* -webkit-box-shadow: inset 0 0 6px #0d6efd; */
+}
+
+.list-group-item {
+  color: #ffffff;
+  background-color: #1b4250;
+  border-color: rgb(25, 19, 50);
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+  color: #03ffd2;
+  background-color: #0ccfac9e;
+}
+
+.list-group-item.active {
+  color: #fff;
+  background-color: #0ccfac;
+  border-color: #191332;
+}
+
+.year-list {
+  text-align: center;
+  width: 7rem;
+}
+
+.winner-list {
+  display: flex;
+  /* justify-content: space-around; */
+  border: 1px solid #29294d;
+  align-items: center;
+  margin-left: 1rem;
+  width: 40rem;
+}
