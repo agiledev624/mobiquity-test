@@ -1,4 +1,4 @@
-# Simple Currency Exchange
+# F1 Series Champion List
 
 Implemented with React/Typescript, MobX
 
